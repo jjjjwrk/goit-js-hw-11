@@ -1,0 +1,53 @@
+
+
+.gallery{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+img{
+    display: block;
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.search-form{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+input{
+    height: 30px;
+    width: 25%;
+    border-radius: 5px;
+    outline: none;
+    font-size: medium;
+}
+
+button {
+    border-radius: 5px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.info-item{
+    display: block;
+    text-align: center;
+}
